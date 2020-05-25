@@ -57,5 +57,7 @@ def run(songs)
   input = gets.strip
   if input == "exit"
     exit_jukebox
-  elsif input == 
+  elsif input == "help"
+    help
+  end
 end 
