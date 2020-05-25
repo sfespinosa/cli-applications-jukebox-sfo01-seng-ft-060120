@@ -56,6 +56,7 @@ def run(songs)
   loop do
     puts "Please enter a command:"
     input = gets.strip
-    
+    if input == "exit"
+      exit
   end 
 end 
