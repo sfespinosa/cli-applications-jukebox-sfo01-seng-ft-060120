@@ -58,5 +58,6 @@ def run(songs)
     input = gets.strip
     if input == "exit"
       exit
+      break
   end 
 end 
