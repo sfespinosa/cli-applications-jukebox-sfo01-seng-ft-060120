@@ -34,7 +34,10 @@ def play(songs)
   input = gets.strip
   if input.length == 1 
     index = input.to_i - 1 
-    puts "Playing #{songs[index]}"
+    if songs[index]
+      puts "Playing #{songs[index]}"
+    else 
+      puts "Invalid input, please try again"
   else 
     if songs.include? input
       puts "Playing #{input}"
