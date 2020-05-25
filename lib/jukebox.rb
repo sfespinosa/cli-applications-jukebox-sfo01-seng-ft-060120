@@ -37,7 +37,7 @@ def play(songs)
     puts "Playing #{songs[index]}"
   else 
     binding.pry
-    if songs.include? input == true
+    if songs.include? inpu
       binding.pry
       puts "Playing #{input}"
     end
