@@ -38,6 +38,7 @@ def play(songs)
       puts "Playing #{songs[index]}"
     else 
       puts "Invalid input, please try again"
+    end 
   else 
     if songs.include? input
       puts "Playing #{input}"
