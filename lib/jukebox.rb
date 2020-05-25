@@ -59,5 +59,6 @@ def run(songs)
     if input == "exit"
       exit
       break
+    end 
   end 
 end 
