@@ -65,5 +65,6 @@ def run(songs)
     input = gets.strip
   elsif input == "list"
     list(songs)
+    input = gets.strip
   end
 end 
